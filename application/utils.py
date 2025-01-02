@@ -6,7 +6,8 @@ import shutil
 from datetime import datetime
 import glob
 from django.conf import settings
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
+import time
 
 # Configure colorlog
 handler = colorlog.StreamHandler()
@@ -28,6 +29,8 @@ logger.setLevel(logging.DEBUG)
 
 HTML_FILES_NAME = ["primary-document.html", "full-submission.txt"]
 
+
+start = time.time()
 def find_and_rename_files(folder_path):
     """
     פונקציה המחפשת קבצים מסוג primary-document.html או full-submission.txt
@@ -312,6 +315,7 @@ def fetch_sec_fillings(ticker: str, report_type: str, after_date: str, before_da
     """
     הורדת דיווחים (filings) ל-SEC עבור ticker מסוים וטווח תאריכים.
     """
+    start = time.time()  # Start time measurement
     try:
         logger.info("Fetching SEC filings for ticker: %s and report_type: %s", ticker, report_type)
 
@@ -379,4 +383,11 @@ def fetch_sec_fillings(ticker: str, report_type: str, after_date: str, before_da
     except Exception as e:
         logger.error("An error occurred in fetch_sec_fillings: %s", e)
         raise
+    finally:
+        end = time.time()  # End time measurement
+        logger.warning(f"Runtime of the fetch_sec_fillings function is {end - start} seconds")
+
+end = time.time()   
+
+logger.warning(f"Runtime of the program is {end - start}")
 
