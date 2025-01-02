@@ -1,0 +1,15 @@
+arelle==2.2
+asgiref==3.8.1
+beautifulsoup4==4.12.3
+certifi==2024.12.14
+charset-normalizer==3.4.1
+colorlog==6.9.0
+Django==5.1.4
+django-cors-headers==4.6.0
+idna==3.10
+pyrate-limiter==3.7.0
+requests==2.32.3
+sec-edgar-downloader==5.0.2
+soupsieve==2.6
+sqlparse==0.5.3
+urllib3==2.3.0
