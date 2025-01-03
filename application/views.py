@@ -1,5 +1,6 @@
 from django.http import JsonResponse
 from .utils import fetch_sec_fillings
+from django.shortcuts import render
 
 def fetch_sec_filings_view(request):
     """
@@ -26,3 +27,17 @@ def fetch_sec_filings_view(request):
             "status": "error",
             "message": str(e)
         }, status=500)
+
+
+
+
+# application/views.py
+
+from django.shortcuts import render
+# הסר את השורה הבאה אם קיימת
+# from django.contrib.auth.decorators import login_required
+
+# הסר את הדקורטור אם קיים (אם אינך זקוק להגבלת גישה)
+# @login_required
+def dashboard_view(request):
+    return render(request, 'index.html')  # השתמש ב-index.html

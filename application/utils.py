@@ -22,7 +22,7 @@ handler.setFormatter(colorlog.ColoredFormatter(
         'WARNING': 'yellow',
         'ERROR': 'red',
         'CRITICAL': 'bold_red',
-        'PROCESS_TIME': 'pink',
+        'PROCESS_TIME': 'blue',  # Change 'pink' to 'blue' or any other valid color
     }
 ))
 
@@ -93,86 +93,171 @@ def move_files_to_parent(folder_path: str):
     except Exception as e:
         logger.error("Error during file moving for path %s: %s", folder_path, e)
 
+from bs4 import BeautifulSoup
+
+from bs4 import BeautifulSoup
+
+import re
+from bs4 import BeautifulSoup
+
 def _insert_custom_style(soup: BeautifulSoup):
     """
-    פונקציה עזר להוספת בלוק עיצוב (CSS) אל ה-HTML, 
-    בכדי להמחיש שינוי ויזואלי לעומת התוכן המקורי.
+    פונקציה לעיצוב הדוח בסגנון המזכיר עיתון (דו-עמודי),
+    תוך מיון דפים לפי מספר העמוד המופיע בכותרת.
     """
+
     style_content = """
     <style>
+    /* גוף הדף */
     body {
-        background-color: #f9f9f9;
-        color: #333;
-        font-family: Arial, sans-serif;
-        margin: 20px;
-    }
-    h1, h2, h3 {
-        color: #4b75c9; /* כחול נעים */
-        font-weight: bold;
-    }
-    p {
+        background-color: #f8f8f2;
+        color: #333333;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 20px;
         line-height: 1.6;
     }
+    /* עיצוב הכותרות */
+    h1, h2, h3 {
+        font-family: 'Times New Roman', Times, serif;
+        color: #111111;
+        margin-bottom: 0.5em;
+    }
+    /* טקסט כללי */
+    p {
+        margin-bottom: 1em;
+        text-align: justify;
+    }
+    /* תמונות */
+    .content img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    /* ציטוטים */
+    blockquote {
+        border-left: 3px solid #cccccc;
+        padding-left: 15px;
+        color: #555555;
+        font-style: italic;
+        margin: 20px 0;
+    }
+    /* טבלאות */
     table {
-        border-collapse: collapse;
         width: 100%;
-        margin: 15px 0;
+        border-collapse: collapse;
+        margin: 20px 0;
     }
     th, td {
-        border: 1px solid #ccc;
+        border: 1px solid #cccccc;
         padding: 8px;
+        text-align: left;
     }
     th {
-        background-color: #ddd;
+        background-color: #eee;
     }
-    .custom-header {
-        background-color: #4b75c9;
-        color: #fff;
-        padding: 10px;
+    /* אזור תחתון (footer) */
+    .footer {
         text-align: center;
+        margin-top: 40px;
+        font-size: 0.9em;
+        color: #777777;
+    }
+    /* פריסת "עיתון": שתי עמודות זו לצד זו */
+    .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        margin-bottom: 40px;
+    }
+    /* כל "עמוד" בנפרד */
+    .page {
+        background-color: #ffffff;
+        padding: 15px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ddd;
         margin-bottom: 20px;
     }
-    .custom-header h1 {
-        margin: 0;
+    /* הסתרת תגים ייחודיים של XBRL */
+    ix\\:header, ix\\:references, xbrli\\:context, xbrli\\:period,
+    xbrli\\:startDate, xbrli\\:endDate, xbrli\\:segment,
+    xbrli\\:unitNumerator, xbrli\\:divide {
+        display: none;
     }
     </style>
     """
 
-    # נוודא שיש תגית <head>, ואם לא - ניצור אותה
+    # 1) יצירת head אם לא קיים
     if not soup.head:
-        # אם אין head בכלל, ניצור חדש כילד ראשון ב-html
-        if soup.html:
-            head_tag = soup.new_tag("head")
-            soup.html.insert(0, head_tag)
-        else:
-            # אם אין גם <html>, ניצור אחד
+        if not soup.html:
             html_tag = soup.new_tag("html")
             soup.insert(0, html_tag)
-            head_tag = soup.new_tag("head")
-            html_tag.insert(0, head_tag)
+        else:
+            html_tag = soup.html
+        head_tag = soup.new_tag("head")
+        html_tag.insert(0, head_tag)
     else:
         head_tag = soup.head
 
-    # נוסיף את ה-style לתגית head
+    # הוספת ה-style ל-head
     head_tag.append(BeautifulSoup(style_content, "html.parser"))
 
-    # כדוגמה, נוסיף כותרת עליונה בגוף הדף
-    if soup.body:
-        header_div = soup.new_tag("div", **{"class": "custom-header"})
-        header_h1 = soup.new_tag("h1")
-        header_h1.string = "Styled SEC Filing Document"
-        header_div.append(header_h1)
-        # נכניס את ה-div לפני כל תוכן אחר שב-body
-        soup.body.insert(0, header_div)
-    else:
-        # אם אין body, ניצור תגית body
+    # 2) יצירת body אם לא קיים
+    if not soup.body:
+        if not soup.html:
+            html_tag = soup.new_tag("html")
+            soup.insert(0, html_tag)
+        else:
+            html_tag = soup.html
         body_tag = soup.new_tag("body")
-        soup.append(body_tag)
-        header_div = soup.new_tag("div", **{"class": "custom-header"})
-        header_h1 = soup.new_tag("h1")
-        header_h1.string = "Styled SEC Filing Document"
-        header_div.append(header_h1)
-        body_tag.insert(0, header_div)
+        html_tag.append(body_tag)
+    else:
+        body_tag = soup.body
+
+    # הסרת אלמנטים לא רצויים
+    for unwanted_class in ['button', 'card', 'custom-header']:
+        for tag in soup.find_all(class_=unwanted_class):
+            tag.decompose()
+
+    # 3) יצירת Grid של עמודים
+    grid_container = soup.new_tag("div", **{"class": "content-grid"})
+    pages = []
+
+    # מוצאים כל כותרת (h2/h3) וכל התוכן ששייך אליה עד הכותרת הבאה
+    headings = soup.find_all(['h2', 'h3'])
+    for heading in headings:
+        page_div = soup.new_tag("div", **{"class": "page"})
+        page_div.append(heading.extract())
+        # אוספים את האחים (siblings) עד כותרת חדשה
+        for sibling in heading.find_next_siblings():
+            if sibling.name in ['h2', 'h3']:
+                break
+            page_div.append(sibling.extract())
+        pages.append(page_div)
+
+    # הוספת העמודים ל־Grid לפי הסדר
+    for page_div in pages:
+        grid_container.append(page_div)
+
+    body_tag.append(grid_container)
+
+    # 4) הוספת footer אם אין
+    if not soup.find("div", {"class": "footer"}):
+        footer_div = soup.new_tag("div", **{"class": "footer"})
+        footer_div.string = "דוח זה נוצר באמצעות מערכת ניתוח SEC Filings."
+        body_tag.append(footer_div)
+
+    # 5) הסרת/עטיפת תגים ייחודיים של XBRL
+    xbrl_tags = [
+        'ix:header', 'ix:references', 'xbrli:context', 'xbrli:period',
+        'xbrli:startDate', 'xbrli:endDate', 'xbrli:segment',
+        'xbrli:unitNumerator', 'xbrli:divide'
+    ]
+    for tag_name in xbrl_tags:
+        for el in soup.find_all(tag_name):
+            el.unwrap()
+
+    return
 
 def extract_filing_date(soup: BeautifulSoup) -> Optional[str]:
     """

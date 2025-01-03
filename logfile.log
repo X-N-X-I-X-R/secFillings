@@ -1,0 +1,722 @@
+2025-01-03 01:01:44,770 - INFO - Fetching SEC filings for ticker: TSLA and report_type: 10-K
+2025-01-03 01:01:44,775 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K
+2025-01-03 01:01:44,776 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 01:01:45,339 - INFO - Downloader initialized successfully.
+2025-01-03 01:01:47,826 - INFO - Number of filings downloaded: 1
+2025-01-03 01:01:47,826 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA']
+2025-01-03 01:01:47,826 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA
+2025-01-03 01:01:47,826 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 01:01:47,826 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 01:01:47,826 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 01:01:47,827 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.txt
+2025-01-03 01:01:47,827 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.html
+2025-01-03 01:01:47,827 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 01:01:47,827 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 01:01:47,827 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 01:01:47,828 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 01:01:47,828 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796
+2025-01-03 01:01:47,828 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 01:01:47,828 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 01:01:47,828 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 01:01:49,051 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 01:01:49,076 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 01:01:49,098 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 01:01:49,099 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 01:01:49,100 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K.html
+2025-01-03 01:01:49,116 - DEBUG - Removing <img> tag: <img alt="img96779317_0.jpg" src="img96779317_0.jpg" style="width:634px;height:321px;"/>
+2025-01-03 01:01:49,541 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 01:01:49,541 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 01:01:49,541 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 01:01:49,542 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 01:01:49,542 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 4.772247076034546 seconds
+2025-01-03 09:44:43,882 - INFO - Fetching SEC filings for ticker: TSLA and report_type: 10-K
+2025-01-03 09:44:43,884 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K
+2025-01-03 09:44:43,884 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 09:44:47,351 - INFO - Downloader initialized successfully.
+2025-01-03 09:44:56,098 - INFO - Number of filings downloaded: 1
+2025-01-03 09:44:56,098 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA', '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31']
+2025-01-03 09:44:56,098 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA
+2025-01-03 09:44:56,099 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 09:44:56,099 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:56,099 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:56,099 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:56,099 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:56,099 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:56,100 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 09:44:56,100 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:56,100 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:56,100 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:57,158 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:44:57,183 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:44:57,205 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:44:57,205 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:57,206 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:57,638 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:57,638 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:57,639 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 09:44:57,639 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:44:57,639 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:44:57,639 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.txt
+2025-01-03 09:44:57,639 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.html
+2025-01-03 09:44:57,639 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:44:57,639 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:44:57,640 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:44:57,640 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:44:57,640 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt
+2025-01-03 09:44:57,640 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:44:57,640 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:44:57,640 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:44:58,861 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:44:58,886 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:44:58,909 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:44:58,909 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:58,909 - INFO - Skipping processing as file already exists: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:58,909 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:58,910 - DEBUG - נתונים שהופקו: {'status': 'skip', 'reason': 'File already exists'}
+2025-01-03 09:44:58,910 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 09:44:58,910 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 09:44:58,910 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 09:44:58,910 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:58,910 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:58,911 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:58,911 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:58,911 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:58,911 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 09:44:58,912 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:44:58,912 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:44:58,912 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:00,015 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:45:00,040 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:45:00,063 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:45:00,063 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:00,064 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:00,491 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:00,492 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:00,492 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 09:45:00,492 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:45:00,492 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:45:00,493 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:45:00,493 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:45:00,494 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:45:00,494 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-22-000796
+2025-01-03 09:45:00,494 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html
+2025-01-03 09:45:00,494 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 09:45:00,495 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:45:00,495 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html
+2025-01-03 09:45:00,495 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html
+2025-01-03 09:45:01,882 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:45:01,908 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:45:01,946 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:45:01,947 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:01,948 - INFO - Skipping processing as file already exists: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:01,948 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:45:01,949 - DEBUG - נתונים שהופקו: {'status': 'skip', 'reason': 'File already exists'}
+2025-01-03 09:45:01,950 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 09:45:01,952 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 18.069507837295532 seconds
+2025-01-03 09:50:37,531 - INFO - Fetching SEC filings for ticker: TSLA and report_type: 10-K
+2025-01-03 09:50:37,532 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K
+2025-01-03 09:50:37,533 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 09:50:38,798 - INFO - Downloader initialized successfully.
+2025-01-03 09:50:44,721 - INFO - Number of filings downloaded: 1
+2025-01-03 09:50:44,722 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt', '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA', '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31']
+2025-01-03 09:50:44,722 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 09:50:44,722 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 09:50:44,723 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:44,723 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:44,723 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:44,724 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:44,724 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:44,724 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 09:50:44,724 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:44,725 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:44,725 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:45,799 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:50:45,824 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:50:45,846 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:50:45,847 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:45,851 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:46,287 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:46,288 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:46,289 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 09:50:46,289 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:46,289 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:46,289 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.txt
+2025-01-03 09:50:46,290 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.html
+2025-01-03 09:50:46,290 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:46,290 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:46,291 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:46,291 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:46,291 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt
+2025-01-03 09:50:46,291 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 09:50:46,292 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:46,292 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:46,292 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 09:50:46,293 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 09:50:47,629 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:50:47,654 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:50:47,678 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:50:47,678 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:47,678 - INFO - Skipping processing as file already exists: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:47,678 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:47,678 - DEBUG - נתונים שהופקו: {'status': 'skip', 'reason': 'File already exists'}
+2025-01-03 09:50:47,679 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:47,679 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:48,745 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:50:48,767 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 09:50:48,788 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:50:48,789 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:48,791 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K.html
+2025-01-03 09:50:48,806 - DEBUG - Removing <img> tag: <img alt="img97702838_0.jpg" src="img97702838_0.jpg" style="width:717px;height:376px;"/>
+2025-01-03 09:50:49,185 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:49,186 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:49,186 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html'}
+2025-01-03 09:50:49,186 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 09:50:49,186 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA
+2025-01-03 09:50:49,186 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 09:50:49,186 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:49,186 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:49,187 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:49,187 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:49,187 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:49,187 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 09:50:49,188 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:49,188 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:49,188 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:50,268 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:50:50,294 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:50:50,317 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:50:50,318 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:50,320 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:50,769 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:50,769 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:50,769 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 09:50:50,769 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:50,770 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:50,770 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:50,770 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:50,770 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:50,771 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409
+2025-01-03 09:50:50,771 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 09:50:50,771 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:50,772 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:50,772 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:50,772 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:50,772 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:50,772 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:50,772 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:50,773 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:50,773 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:50,773 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:50,773 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:50,773 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:50,773 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31
+2025-01-03 09:50:50,774 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:50,774 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:50,774 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:52,033 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:50:52,056 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 09:50:52,077 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:50:52,078 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:52,078 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:52,470 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:52,470 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:52,470 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html'}
+2025-01-03 09:50:52,471 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 09:50:52,471 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 09:50:52,471 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 09:50:52,471 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:52,471 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:52,471 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:52,472 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:52,472 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:52,472 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 09:50:52,472 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 09:50:52,472 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:52,473 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:53,563 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:50:53,588 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 09:50:53,611 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:50:53,612 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:53,615 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:54,036 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:54,037 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 09:50:54,037 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 09:50:54,037 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:54,037 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:54,037 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:54,037 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:54,037 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 09:50:54,037 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:54,038 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:54,038 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:54,038 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:54,039 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt
+2025-01-03 09:50:54,039 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K
+2025-01-03 09:50:54,040 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:54,040 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 09:50:54,040 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:54,040 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:54,040 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:54,040 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:54,041 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 09:50:54,041 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:54,041 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:54,041 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:54,041 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:54,042 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:54,042 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31
+2025-01-03 09:50:54,042 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 09:50:54,043 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:54,043 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:55,072 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 09:50:55,094 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 09:50:55,115 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 09:50:55,115 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:55,119 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:55,532 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:55,532 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 09:50:55,532 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html'}
+2025-01-03 09:50:55,533 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 09:50:55,533 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 18.002706289291382 seconds
+2025-01-03 13:06:54,902 - INFO - Fetching SEC filings for ticker: TSLA and report_type: 10-K
+2025-01-03 13:06:54,904 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K
+2025-01-03 13:06:54,905 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 13:06:57,271 - INFO - Downloader initialized successfully.
+2025-01-03 13:07:03,888 - INFO - Number of filings downloaded: 1
+2025-01-03 13:07:03,890 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31', '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt', '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA', '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31']
+2025-01-03 13:07:03,890 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31
+2025-01-03 13:07:03,890 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:07:03,890 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:03,890 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:03,890 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:03,890 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:03,891 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:03,891 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 13:07:03,891 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:03,891 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:03,891 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:05,004 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:05,050 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 13:07:05,077 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:05,078 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:05,079 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:05,521 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:05,521 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:05,521 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 13:07:05,521 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:05,521 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:05,522 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:05,522 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:05,522 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:05,522 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:05,522 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:05,522 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.txt
+2025-01-03 13:07:05,523 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.html
+2025-01-03 13:07:05,523 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:05,523 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:05,523 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:05,523 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:05,523 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/0000950170-23-001409
+2025-01-03 13:07:05,524 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 13:07:05,524 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:05,524 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:05,524 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:05,524 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:06,570 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:06,592 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:06,613 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:06,614 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:06,614 - INFO - Skipping processing as file already exists: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:06,615 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:06,615 - DEBUG - נתונים שהופקו: {'status': 'skip', 'reason': 'File already exists'}
+2025-01-03 13:07:06,615 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:06,615 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:06,615 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:06,615 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:06,616 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:06,616 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:06,616 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:06,616 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:06,616 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:06,617 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:06,617 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31
+2025-01-03 13:07:06,617 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:06,618 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:06,618 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:07,636 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:07,659 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:07,679 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:07,680 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:07,682 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:08,107 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:08,107 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:08,107 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html'}
+2025-01-03 13:07:08,107 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:07:08,108 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 13:07:08,108 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:07:08,108 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:08,108 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:08,109 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:08,109 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:08,109 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:08,109 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 13:07:08,110 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:08,110 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:08,110 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:09,257 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:09,323 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 13:07:09,347 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:09,349 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:09,355 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:09,793 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:09,793 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:09,793 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 13:07:09,793 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:09,794 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:09,794 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:09,794 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:09,794 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:09,794 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:09,794 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:09,795 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:09,795 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:09,796 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt
+2025-01-03 13:07:09,796 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html
+2025-01-03 13:07:09,796 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 13:07:09,796 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:09,796 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:09,797 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html
+2025-01-03 13:07:09,797 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html
+2025-01-03 13:07:10,806 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:10,829 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:10,850 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:10,850 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:10,850 - INFO - Skipping processing as file already exists: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:10,851 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:10,851 - DEBUG - נתונים שהופקו: {'status': 'skip', 'reason': 'File already exists'}
+2025-01-03 13:07:10,851 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:10,851 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:10,851 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:10,851 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:10,852 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:10,852 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:10,852 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:10,852 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:10,852 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:10,853 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:10,853 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31
+2025-01-03 13:07:10,853 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:10,853 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:10,854 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:11,860 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:11,930 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:11,952 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:11,952 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:11,957 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:12,386 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:12,387 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:12,387 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html'}
+2025-01-03 13:07:12,387 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:07:12,387 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA
+2025-01-03 13:07:12,387 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:07:12,387 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:12,387 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:12,388 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:12,388 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:12,388 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:12,388 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 13:07:12,389 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:12,389 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:12,389 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:13,474 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:13,498 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 13:07:13,521 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:13,522 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:13,526 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:13,956 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:13,957 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:13,957 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 13:07:13,957 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:13,957 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:13,957 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:13,957 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:13,957 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:13,957 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:13,957 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:13,957 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:13,958 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:13,958 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt
+2025-01-03 13:07:13,958 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 13:07:13,958 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 13:07:13,958 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:13,958 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:13,958 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 13:07:13,958 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 13:07:14,992 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:15,014 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:15,035 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:15,035 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:15,036 - INFO - Skipping processing as file already exists: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:15,036 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:15,036 - DEBUG - נתונים שהופקו: {'status': 'skip', 'reason': 'File already exists'}
+2025-01-03 13:07:15,037 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:15,037 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:15,037 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:15,037 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:15,037 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:15,037 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:15,037 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:15,037 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:15,038 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:15,038 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:15,038 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31
+2025-01-03 13:07:15,038 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:15,038 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:15,038 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:16,035 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:16,057 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:16,078 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:16,078 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:16,081 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:16,476 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:16,477 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:16,477 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html'}
+2025-01-03 13:07:16,477 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:07:16,477 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 13:07:16,477 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:07:16,477 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:16,477 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:16,477 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:16,477 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:16,478 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:16,478 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31
+2025-01-03 13:07:16,478 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019
+2025-01-03 13:07:16,478 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:16,478 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:17,551 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:17,575 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 13:07:17,599 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:17,599 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:17,602 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:18,055 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:18,056 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html
+2025-01-03 13:07:18,057 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2019/2019-12-31/TSLA_10-K_2019-12-31.html'}
+2025-01-03 13:07:18,057 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:18,057 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:18,057 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:18,057 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:18,057 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:18,057 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:18,057 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:18,058 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:18,058 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:18,058 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA/TSLA_10-K.txt
+2025-01-03 13:07:18,058 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.txt
+2025-01-03 13:07:18,058 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:18,058 - INFO - File already exists, skipping move: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.html
+2025-01-03 13:07:18,059 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings
+2025-01-03 13:07:18,059 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 13:07:18,059 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/sec-edgar-filings/TSLA_10-K.html
+2025-01-03 13:07:19,282 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:19,304 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:19,325 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:19,325 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:19,325 - INFO - Skipping processing as file already exists: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:19,325 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:19,325 - DEBUG - נתונים שהופקו: {'status': 'skip', 'reason': 'File already exists'}
+2025-01-03 13:07:19,326 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:19,326 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:19,326 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:19,326 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:19,326 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/TSLA_10-K.txt
+2025-01-03 13:07:19,326 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:19,326 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:19,326 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:19,326 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:19,326 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:19,326 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31
+2025-01-03 13:07:19,327 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022
+2025-01-03 13:07:19,327 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:19,327 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:20,327 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:07:20,349 - DEBUG - Filing Date extracted: December 31, 2022
+2025-01-03 13:07:20,370 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:07:20,370 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:20,371 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:20,768 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:20,768 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html
+2025-01-03 13:07:20,768 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-K/2022/2022-12-31/TSLA_10-K_2022-12-31.html'}
+2025-01-03 13:07:20,768 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:07:20,769 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 25.866877794265747 seconds
+2025-01-03 13:08:25,539 - INFO - Fetching SEC filings for ticker: TSLA and report_type: 10-Q
+2025-01-03 13:08:25,540 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-Q
+2025-01-03 13:08:25,541 - INFO - Checking existing files for 10-Q filings: []
+2025-01-03 13:08:26,755 - INFO - Downloader initialized successfully.
+2025-01-03 13:08:28,197 - INFO - Number of filings downloaded: 0
+2025-01-03 13:08:28,198 - INFO - Filing paths found: []
+2025-01-03 13:08:28,199 - ERROR - No reports found after downloading.
+2025-01-03 13:08:28,199 - ERROR - An error occurred in fetch_sec_fillings: No reports found after downloading.
+2025-01-03 13:08:28,199 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 2.66044020652771 seconds
+2025-01-03 13:08:41,510 - INFO - Fetching SEC filings for ticker: TSLA and report_type: 10-Q
+2025-01-03 13:08:41,512 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/TSLA/10-Q
+2025-01-03 13:08:41,512 - INFO - Checking existing files for 10-Q filings: []
+2025-01-03 13:08:42,185 - INFO - Downloader initialized successfully.
+2025-01-03 13:08:43,543 - INFO - Number of filings downloaded: 0
+2025-01-03 13:08:43,544 - INFO - Filing paths found: []
+2025-01-03 13:08:43,544 - ERROR - No reports found after downloading.
+2025-01-03 13:08:43,544 - ERROR - An error occurred in fetch_sec_fillings: No reports found after downloading.
+2025-01-03 13:08:43,545 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 2.0344347953796387 seconds
+2025-01-03 13:09:10,358 - INFO - Fetching SEC filings for ticker: MSFT and report_type: 10-Q
+2025-01-03 13:09:10,359 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q
+2025-01-03 13:09:10,359 - INFO - Checking existing files for 10-Q filings: []
+2025-01-03 13:09:11,587 - INFO - Downloader initialized successfully.
+2025-01-03 13:09:18,586 - INFO - Number of filings downloaded: 1
+2025-01-03 13:09:18,588 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT']
+2025-01-03 13:09:18,588 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT
+2025-01-03 13:09:18,588 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:09:18,588 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:09:18,588 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:09:18,588 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.txt
+2025-01-03 13:09:18,589 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.html
+2025-01-03 13:09:18,589 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:09:18,589 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:09:18,589 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.html
+2025-01-03 13:09:18,589 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.txt
+2025-01-03 13:09:18,589 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450
+2025-01-03 13:09:18,590 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:09:18,590 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.html
+2025-01-03 13:09:18,590 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.html
+2025-01-03 13:09:19,842 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:09:19,909 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 13:09:19,964 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:09:19,965 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html
+2025-01-03 13:09:19,965 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/MSFT_10-Q.html
+2025-01-03 13:09:20,414 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html
+2025-01-03 13:09:20,414 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html
+2025-01-03 13:09:20,414 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html'}
+2025-01-03 13:09:20,414 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:09:20,415 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 10.057020902633667 seconds
+2025-01-03 13:14:35,344 - INFO - Fetching SEC filings for ticker: MSFT and report_type: 10-Q
+2025-01-03 13:14:35,347 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q
+2025-01-03 13:14:35,348 - INFO - Checking existing files for 10-Q filings: []
+2025-01-03 13:14:36,383 - INFO - Downloader initialized successfully.
+2025-01-03 13:14:42,317 - INFO - Number of filings downloaded: 1
+2025-01-03 13:14:42,318 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT']
+2025-01-03 13:14:42,318 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT
+2025-01-03 13:14:42,318 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:14:42,319 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:14:42,319 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:14:42,319 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.txt
+2025-01-03 13:14:42,319 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.html
+2025-01-03 13:14:42,320 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:14:42,320 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:14:42,320 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.html
+2025-01-03 13:14:42,320 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450/MSFT_10-Q.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.txt
+2025-01-03 13:14:42,321 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/0001564590-20-002450
+2025-01-03 13:14:42,321 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings
+2025-01-03 13:14:42,321 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.html
+2025-01-03 13:14:42,322 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/sec-edgar-filings/MSFT/10-Q/MSFT_10-Q.html
+2025-01-03 13:14:43,396 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:14:43,423 - DEBUG - Filing Date extracted: December 31, 2019
+2025-01-03 13:14:43,472 - DEBUG - No Fiscal Year Ended information found.
+2025-01-03 13:14:43,473 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html
+2025-01-03 13:14:43,474 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/MSFT_10-Q.html
+2025-01-03 13:14:43,874 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html
+2025-01-03 13:14:43,875 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html
+2025-01-03 13:14:43,875 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-Q/2019/2019-12-31/MSFT_10-Q_2019-12-31.html'}
+2025-01-03 13:14:43,875 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:14:43,876 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 8.531928062438965 seconds
+2025-01-03 13:16:21,633 - INFO - Fetching SEC filings for ticker: MSFT and report_type: 10-K
+2025-01-03 13:16:21,636 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K
+2025-01-03 13:16:21,636 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 13:16:22,949 - INFO - Downloader initialized successfully.
+2025-01-03 13:16:27,298 - INFO - Number of filings downloaded: 1
+2025-01-03 13:16:27,298 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT']
+2025-01-03 13:16:27,298 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT
+2025-01-03 13:16:27,298 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:16:27,299 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:16:27,299 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:16:27,299 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.txt
+2025-01-03 13:16:27,299 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.html
+2025-01-03 13:16:27,299 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:16:27,299 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:16:27,299 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.txt
+2025-01-03 13:16:27,300 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:16:27,300 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944
+2025-01-03 13:16:27,300 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:16:27,300 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:16:27,300 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:16:29,013 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:16:29,045 - DEBUG - Filing Date extracted: June 30, 2020
+2025-01-03 13:16:29,076 - DEBUG - Fiscal Year Ended extracted: June 30, 2020
+2025-01-03 13:16:29,076 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:16:29,077 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/MSFT_10-K.html
+2025-01-03 13:16:29,576 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:16:29,577 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:16:29,577 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html'}
+2025-01-03 13:16:29,577 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:16:29,577 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 7.9441328048706055 seconds
+2025-01-03 13:25:01,134 - INFO - Fetching SEC filings for ticker: MSFT and report_type: 10-K
+2025-01-03 13:25:01,135 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K
+2025-01-03 13:25:01,135 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 13:25:02,986 - INFO - Downloader initialized successfully.
+2025-01-03 13:25:08,328 - INFO - Number of filings downloaded: 1
+2025-01-03 13:25:08,330 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT']
+2025-01-03 13:25:08,330 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT
+2025-01-03 13:25:08,330 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:25:08,331 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:25:08,331 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:25:08,332 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.txt
+2025-01-03 13:25:08,333 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.html
+2025-01-03 13:25:08,333 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:25:08,333 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:25:08,335 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.txt
+2025-01-03 13:25:08,336 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:25:08,337 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944
+2025-01-03 13:25:08,338 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:25:08,339 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:25:08,339 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:25:09,779 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:25:09,813 - DEBUG - Filing Date extracted: June 30, 2020
+2025-01-03 13:25:09,843 - DEBUG - Fiscal Year Ended extracted: June 30, 2020
+2025-01-03 13:25:09,844 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:25:09,845 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/MSFT_10-K.html
+2025-01-03 13:25:10,632 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:25:10,632 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:25:10,632 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html'}
+2025-01-03 13:25:10,632 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:25:10,633 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 9.499342203140259 seconds
+2025-01-03 13:33:59,650 - INFO - Fetching SEC filings for ticker: MSFT and report_type: 10-K
+2025-01-03 13:33:59,654 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K
+2025-01-03 13:33:59,655 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 13:34:01,260 - INFO - Downloader initialized successfully.
+2025-01-03 13:34:18,756 - INFO - Fetching SEC filings for ticker: MSFT and report_type: 10-K
+2025-01-03 13:34:18,757 - INFO - Save directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K
+2025-01-03 13:34:18,758 - INFO - Checking existing files for 10-K filings: []
+2025-01-03 13:34:19,439 - INFO - Downloader initialized successfully.
+2025-01-03 13:34:23,512 - INFO - Number of filings downloaded: 1
+2025-01-03 13:34:23,513 - INFO - Filing paths found: ['/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT']
+2025-01-03 13:34:23,513 - INFO - Processing filing path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT
+2025-01-03 13:34:23,513 - INFO - התחלת עיבוד קבצים שהורדו.
+2025-01-03 13:34:23,513 - INFO - עיבוד תיקיית דוחות: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:34:23,513 - INFO - Started processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:34:23,513 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/full-submission.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.txt
+2025-01-03 13:34:23,514 - INFO - Renaming file from /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/primary-document.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.html
+2025-01-03 13:34:23,514 - INFO - Finished processing folder: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:34:23,514 - INFO - Moving files to parent folder for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:34:23,514 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.txt to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.txt
+2025-01-03 13:34:23,514 - INFO - Moving /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944/MSFT_10-K.html to /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:34:23,514 - INFO - Removing empty directory: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/0001564590-20-034944
+2025-01-03 13:34:23,515 - INFO - Finished moving files for path: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings
+2025-01-03 13:34:23,515 - INFO - עיבוד קובץ HTML: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:34:23,515 - INFO - Processing final HTML file: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/sec-edgar-filings/MSFT/10-K/MSFT_10-K.html
+2025-01-03 13:34:24,785 - DEBUG - HTML content loaded for checking filing date.
+2025-01-03 13:34:24,818 - DEBUG - Filing Date extracted: June 30, 2020
+2025-01-03 13:34:24,849 - DEBUG - Fiscal Year Ended extracted: June 30, 2020
+2025-01-03 13:34:24,850 - DEBUG - Unique path created: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:34:24,850 - INFO - Original HTML file moved to archive: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/archived_html/MSFT_10-K.html
+2025-01-03 13:34:26,541 - INFO - New styled HTML file created with unique name: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:34:26,542 - INFO - קובץ HTML עובד: /Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html
+2025-01-03 13:34:26,542 - DEBUG - נתונים שהופקו: {'status': 'processed', 'file': '/Users/elmaliahmac/Documents/secFilling_API/scraper/saved_data/sec-edgar-filings/MSFT/10-K/2020/2020-06-30/MSFT_10-K_2020-06-30.html'}
+2025-01-03 13:34:26,542 - INFO - סיום עיבוד כל הקבצים שהורדו.
+2025-01-03 13:34:26,543 - PROCESS_TIME - Runtime of the fetch_sec_fillings function is 7.78779411315918 seconds

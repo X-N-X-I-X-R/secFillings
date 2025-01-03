@@ -12,9 +12,9 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -27,9 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
-# Application definition
-
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+    },
+}
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,10 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'application',
-     'corsheaders',
-         'bs4',
+    'application.apps.ApplicationConfig',  # ודא שאתה משתמש ב-AppConfig הנכון
+    'corsheaders',
+    'bs4',
+    'django_plotly_dash.apps.DjangoPlotlyDashConfig',  # ודא שזה קיים
+    'channels',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -51,6 +57,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_plotly_dash.middleware.BaseMiddleware',
+    'django_plotly_dash.middleware.ExternalRedirectionMiddleware',
 ]
 
 ROOT_URLCONF = 'Api_SecFilling__project.urls'
@@ -58,7 +66,7 @@ ROOT_URLCONF = 'Api_SecFilling__project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],  # ודא שהנתיב נכון
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,12 +79,11 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Api_SecFilling__project.wsgi.application'
 
+WSGI_APPLICATION = 'Api_SecFilling__project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -84,10 +91,8 @@ DATABASES = {
     }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -103,10 +108,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -114,7 +117,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
@@ -126,24 +128,23 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3001',
     'http://10.0.0.9:3001',
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",  
-    "http://192.168.0.253:3000",
-    "http://localhost:3000",
-    "http://localhost:3002",
-    "http://10.0.0.9:3002",
-    "http://localhost:8081",
-    "http://localhost:8082",
-    "http://localhost:8083",
-    "exp://10.0.0.11:8082",
-    "exp://10.0.0.11:8083",
-    "http://192.168.1.123:8083",
-    "http://192.168.1.123:8082",
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'http://192.168.0.253:3000',
+    'http://localhost:3002',
+    'http://10.0.0.9:3002',
+    'http://localhost:8081',
+    'http://localhost:8082',
+    'http://localhost:8083',
+    'exp://10.0.0.11:8082',
+    'exp://10.0.0.11:8083',
+    'http://192.168.1.123:8083',
+    'http://192.168.1.123:8082',
     'http://localhost:4200',
     'http://localhost:4201',
     'http://localhost:5173',
